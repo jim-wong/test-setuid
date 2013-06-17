@@ -1,3 +1,13 @@
+/**
+ * @file test-setuid.cpp
+ * @author Jim Wong (jimwong@alumni.rice.edu)
+ * @date 17 June 2013
+ *
+ * Contains a simple test program to look at the effective uid of the user.
+ *
+ * Copyright © 2013 Jim Wong.  All rights reserved.
+ */
+
 #include <iostream>
 
 #include <sys/ioctl.h>
@@ -7,6 +17,8 @@
 #include <sys/stat.h>
 #include <stdio.h>
 #include <unistd.h>
+
+#include "test-setuid.h"
 
 using namespace std;
 
